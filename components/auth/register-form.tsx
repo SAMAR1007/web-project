@@ -40,7 +40,7 @@ export function RegisterForm() {
             <Input
               id="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Your full name"
               value={formData.name}
               onChange={handleChange}
               required
