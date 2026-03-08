@@ -1,3 +1,4 @@
+// Type definitions for Tech Hive application
 export interface Product {
   id: number
   name: string
