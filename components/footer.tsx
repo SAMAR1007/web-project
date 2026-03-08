@@ -1,3 +1,4 @@
+// Footer component with site links and branding
 import Link from "next/link"
 import { Hexagon } from "lucide-react"
 
