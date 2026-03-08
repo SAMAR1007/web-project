@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Tech Hive - Your Gadget Marketplace",
-  description: "Discover the latest tech gadgets and electronics",
+  description: "Discover and shop the latest tech gadgets and electronics",
   generator: "v0.app",
   icons: {
     icon: [
