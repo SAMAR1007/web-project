@@ -1,3 +1,4 @@
+// Hero section - main call to action for the landing page
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
