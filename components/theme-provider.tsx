@@ -1,3 +1,4 @@
+// Theme provider wrapper for dark/light mode support
 'use client'
 
 import * as React from 'react'

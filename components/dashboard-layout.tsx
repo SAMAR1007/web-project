@@ -1,3 +1,4 @@
+// Dashboard layout with collapsible sidebar
 "use client"
 
 import type React from "react"

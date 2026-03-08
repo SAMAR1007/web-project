@@ -40,7 +40,7 @@ export function RegisterForm() {
             <Input
               id="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Your full name"
               value={formData.name}
               onChange={handleChange}
               required
@@ -72,7 +72,7 @@ export function RegisterForm() {
             />
           </div>
           <Button type="submit" className="w-full">
-            Create Account
+            Get Started
           </Button>
         </form>
       </CardContent>

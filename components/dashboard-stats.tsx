@@ -1,3 +1,4 @@
+// Dashboard statistics overview cards
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DollarSign, ShoppingCart, Package, TrendingUp } from "lucide-react"
 
@@ -5,8 +6,13 @@ export function DashboardStats() {
   const stats = [
     {
       title: "Total Revenue",
-      value: "$45,231",
-      change: "+22.5%",
+// <<<<<<< sprint2
+//       value: "$45,231",
+//       change: "+22.5%",
+// =======
+//       value: "$48,750",
+//       change: "+20.1%",
+// >>>>>>> main
       icon: DollarSign,
     },
     {
@@ -40,7 +46,7 @@ export function DashboardStats() {
           <CardContent>
             <div className="text-2xl font-bold">{stat.value}</div>
             <p className="text-xs text-muted-foreground mt-1">
-              <span className="text-green-600">{stat.change}</span> from last month
+              <span className="text-green-600">{stat.change}</span> vs last month
             </p>
           </CardContent>
         </Card>

@@ -1,11 +1,10 @@
-// Type definitions for Tech Hive application
-export interface Product {
-  id: number
+
   name: string
   price: number
   rating: number
   reviews: number
   image: string
+  description?: string
   category: string
   inStock: boolean
 }

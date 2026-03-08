@@ -16,7 +16,7 @@ export function LoginForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle login logic here
+    // TODO: Add form validation before API call
     console.log("Login:", { email, password })
   }
 
@@ -33,7 +33,9 @@ export function LoginForm() {
             <Input
               id="email"
               type="email"
-              placeholder="you@example.com"
+
+              placeholder="Enter your email"
+
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

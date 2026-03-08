@@ -1,3 +1,4 @@
+// Key statistics displayed on the landing page
 import { Package, Users, ShieldCheck, Zap } from "lucide-react"
 
 export function Stats() {
@@ -9,7 +10,7 @@ export function Stats() {
     },
     {
       icon: Users,
-      value: "55,000+",
+
       label: "Happy Customers",
     },
     {
