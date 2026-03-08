@@ -1,3 +1,4 @@
+// Login page with centered layout
 import { LoginForm } from "@/components/auth/login-form"
 import { Navbar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
