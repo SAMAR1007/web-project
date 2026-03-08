@@ -11,7 +11,7 @@ export function Hero() {
             Discover the Latest Tech at <span className="text-foreground">Tech Hive</span>
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 text-pretty max-w-2xl mx-auto">
-            Your trusted marketplace for cutting-edge gadgets, smartphones, laptops, and accessories. Quality tech
+            Your trusted marketplace for cutting-edge gadgets, smartphones, laptops, and accessories. Premium quality tech
             delivered to your doorstep.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
