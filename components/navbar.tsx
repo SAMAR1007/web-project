@@ -25,7 +25,7 @@ export function Navbar() {
             Categories
           </Link>
           <Link href="/deals" className="text-sm font-medium hover:text-primary transition-colors">
-            Deals
+            Hot Deals
           </Link>
           <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
             Dashboard
@@ -68,7 +68,7 @@ export function Navbar() {
                   Categories
                 </Link>
                 <Link href="/deals" className="text-sm font-medium">
-                  Deals
+                  Hot Deals
                 </Link>
                 <Link href="/dashboard" className="text-sm font-medium">
                   Dashboard

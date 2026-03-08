@@ -17,7 +17,7 @@ export function Categories() {
     <section className="w-full px-4 py-12 md:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Shop by Category</h2>
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Tech Categories</h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
             Find the perfect tech gadget from our organized categories
           </p>
