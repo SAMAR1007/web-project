@@ -5,16 +5,12 @@ export function Stats() {
   const stats = [
     {
       icon: Package,
-      value: "10,000+",
+      value: "12,000+",
       label: "Products Available",
     },
     {
       icon: Users,
-// <<<<<<< sprint5
-//       value: "80,000+",
-// =======
-//       value: "60,000+",
-// >>>>>>> main
+
       label: "Happy Customers",
     },
     {

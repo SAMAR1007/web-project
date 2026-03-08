@@ -1,3 +1,4 @@
+// Hero section - main call to action for the landing page
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
@@ -11,8 +12,6 @@ export function Hero() {
             Explore Premium Tech at <span className="text-foreground">Tech Hive</span>
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 text-pretty max-w-2xl mx-auto">
-            Your trusted marketplace for cutting-edge gadgets, smartphones, laptops, and accessories. Quality tech
-            shipped to your doorstep.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
             <Link href="/products">
