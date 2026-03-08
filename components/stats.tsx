@@ -9,7 +9,7 @@ export function Stats() {
     },
     {
       icon: Users,
-      value: "60,000+",
+      value: "75,000+",
       label: "Happy Customers",
     },
     {

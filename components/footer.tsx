@@ -13,7 +13,7 @@ export function Footer() {
               <span>Tech Hive</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Your trusted marketplace for the latest tech gadgets and electronics.
+              The #1 marketplace for premium tech gadgets and electronics.
             </p>
           </div>
 
