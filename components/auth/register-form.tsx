@@ -1,3 +1,4 @@
+// Registration form with validation
 "use client"
 
 import type React from "react"
