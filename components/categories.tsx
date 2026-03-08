@@ -1,3 +1,4 @@
+// Categories grid section for product browsing
 import { Card } from "@/components/ui/card"
 import { Smartphone, Laptop, Headphones, Watch, Camera, Gamepad } from "lucide-react"
 import Link from "next/link"
