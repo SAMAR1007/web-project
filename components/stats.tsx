@@ -1,3 +1,4 @@
+// Key statistics displayed on the landing page
 import { Package, Users, ShieldCheck, Zap } from "lucide-react"
 
 export function Stats() {
