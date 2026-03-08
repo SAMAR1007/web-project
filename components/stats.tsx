@@ -4,7 +4,7 @@ export function Stats() {
   const stats = [
     {
       icon: Package,
-      value: "10,000+",
+      value: "12,000+",
       label: "Products Available",
     },
     {
