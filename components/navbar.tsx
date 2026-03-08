@@ -45,7 +45,7 @@ export function Navbar() {
             <Button variant="ghost">Login</Button>
           </Link>
           <Link href="/register" className="hidden md:block">
-            <Button>Get Started</Button>
+            <Button>Sign Up</Button>
           </Link>
 
           {/* Mobile Menu */}
