@@ -1,3 +1,4 @@
+// Dashboard statistics overview cards
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DollarSign, ShoppingCart, Package, TrendingUp } from "lucide-react"
 
