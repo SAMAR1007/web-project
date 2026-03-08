@@ -20,7 +20,7 @@ export function Stats() {
     {
       icon: Zap,
       value: "24/7",
-      label: "Customer Support",
+      label: "Live Support",
     },
   ]
 
