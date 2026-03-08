@@ -9,7 +9,7 @@ export function FeaturedProducts() {
       id: 1,
       name: "Premium Wireless Headphones",
       price: 299.99,
-      rating: 4.8,
+      rating: 4.9,
       reviews: 245,
       image: "premium wireless headphones with noise cancellation",
     },

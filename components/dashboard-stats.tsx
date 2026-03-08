@@ -41,7 +41,7 @@ export function DashboardStats() {
           <CardContent>
             <div className="text-2xl font-bold">{stat.value}</div>
             <p className="text-xs text-muted-foreground mt-1">
-              <span className="text-green-600">{stat.change}</span> from last month
+              <span className="text-green-600">{stat.change}</span> vs last month
             </p>
           </CardContent>
         </Card>

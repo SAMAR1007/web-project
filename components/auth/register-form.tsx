@@ -72,7 +72,7 @@ export function RegisterForm() {
             />
           </div>
           <Button type="submit" className="w-full">
-            Create Account
+            Get Started
           </Button>
         </form>
       </CardContent>
