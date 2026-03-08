@@ -6,7 +6,7 @@ export function DashboardStats() {
     {
       title: "Total Revenue",
       value: "$45,231",
-      change: "+20.1%",
+      change: "+22.5%",
       icon: DollarSign,
     },
     {
