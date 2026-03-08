@@ -10,7 +10,7 @@ export default function DashboardPage() {
         <div>
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight">Store Dashboard</h1>
           <p className="text-muted-foreground mt-2 text-sm md:text-base">
-            Welcome back! Here&apos;s an overview of your store.
+            Welcome! Here&apos;s an overview of your store.
           </p>
         </div>
         <DashboardStats />
