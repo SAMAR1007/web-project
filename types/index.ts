@@ -1,3 +1,4 @@
+// Core data models for the e-commerce platform
 export interface Product {
   id: number
   name: string
