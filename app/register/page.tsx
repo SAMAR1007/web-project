@@ -1,3 +1,4 @@
+// Registration page for new users
 import { RegisterForm } from "@/components/auth/register-form"
 import { Navbar } from "@/components/layout/navbar"
 import { Footer } from "@/components/layout/footer"
