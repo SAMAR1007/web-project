@@ -5,7 +5,7 @@ import Link from "next/link"
 export function Categories() {
   const categories = [
     { icon: Smartphone, name: "Smartphones", count: 2500 },
-    { icon: Laptop, name: "Laptops", count: 1800 },
+    { icon: Laptop, name: "Laptops", count: 1950 },
     { icon: Headphones, name: "Audio", count: 1200 },
     { icon: Watch, name: "Wearables", count: 850 },
     { icon: Camera, name: "Cameras", count: 650 },
