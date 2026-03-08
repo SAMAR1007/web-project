@@ -1,3 +1,4 @@
+// Responsive category grid - 2 cols mobile, 6 cols desktop
 import { Card } from "@/components/ui/card"
 import { Smartphone, Laptop, Headphones, Watch, Camera, Gamepad } from "lucide-react"
 import Link from "next/link"
