@@ -5,6 +5,7 @@ export interface Product {
   rating: number
   reviews: number
   image: string
+  description?: string
   category: string
   inStock: boolean
 }

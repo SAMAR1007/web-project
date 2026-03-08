@@ -1,3 +1,4 @@
+// Footer component with site links and branding
 import Link from "next/link"
 import { Hexagon } from "lucide-react"
 
@@ -72,7 +73,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 Tech Hive. All rights reserved.</p>
+          <p>© 2026 Tech Hive. All rights reserved.</p>
         </div>
       </div>
     </footer>
