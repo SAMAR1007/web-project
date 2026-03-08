@@ -31,7 +31,7 @@ export function RegisterForm() {
   return (
     <Card className="w-full max-w-md">
       <CardHeader className="space-y-1">
-        <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
+        <CardTitle className="text-2xl font-bold">Join Tech Hive</CardTitle>
         <CardDescription>Enter your information to get started with Tech Hive</CardDescription>
       </CardHeader>
       <CardContent>
