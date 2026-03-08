@@ -44,7 +44,7 @@ export function FeaturedProducts() {
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Featured Products</h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            Check out our hand-picked selection of the best tech gadgets
+            Browse our top-rated tech gadgets and bestsellers
           </p>
         </div>
 
