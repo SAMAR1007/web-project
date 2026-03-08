@@ -15,7 +15,7 @@ export function FeaturedProducts() {
     {
       id: 2,
       name: "Ultra-Slim Laptop Pro",
-      price: 1299.99,
+      price: 1249.99,
       rating: 4.9,
       reviews: 512,
       image: "modern ultra slim laptop computer",
