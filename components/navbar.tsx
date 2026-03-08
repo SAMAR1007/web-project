@@ -1,3 +1,4 @@
+// Responsive navbar - desktop nav + mobile sheet menu
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Hexagon, ShoppingCart, Menu, LayoutDashboard } from "lucide-react"
