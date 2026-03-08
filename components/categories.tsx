@@ -19,7 +19,7 @@ export function Categories() {
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Shop by Category</h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            Browse through our extensive collection of tech gadgets organized by category
+            Find the perfect tech gadget from our organized categories
           </p>
         </div>
 
