@@ -42,7 +42,7 @@ export function Navbar() {
             </Button>
           </Link>
           <Link href="/login" className="hidden md:block">
-            <Button variant="ghost">Login</Button>
+            <Button variant="ghost">Sign In</Button>
           </Link>
           <Link href="/register" className="hidden md:block">
             <Button>Get Started</Button>
