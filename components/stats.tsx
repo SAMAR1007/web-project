@@ -10,7 +10,11 @@ export function Stats() {
     },
     {
       icon: Users,
-      value: "80,000+",
+// <<<<<<< sprint5
+//       value: "80,000+",
+// =======
+//       value: "60,000+",
+// >>>>>>> main
       label: "Happy Customers",
     },
     {

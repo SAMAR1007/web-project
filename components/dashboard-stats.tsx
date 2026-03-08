@@ -1,3 +1,4 @@
+// Dashboard statistics overview cards
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DollarSign, ShoppingCart, Package, TrendingUp } from "lucide-react"
 
@@ -5,7 +6,7 @@ export function DashboardStats() {
   const stats = [
     {
       title: "Total Revenue",
-      value: "$45,231",
+      value: "$48,750",
       change: "+20.1%",
       icon: DollarSign,
     },

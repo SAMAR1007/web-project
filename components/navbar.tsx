@@ -1,4 +1,4 @@
-// Responsive navbar - desktop nav + mobile sheet menu
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Hexagon, ShoppingCart, Menu, LayoutDashboard } from "lucide-react"
@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl">
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl" aria-label="Tech Hive Home">
           <Hexagon className="h-6 w-6" />
           <span>Tech Hive</span>
         </Link>
