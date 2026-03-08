@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
+// LoginForm handles user authentication
 export function LoginForm() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
