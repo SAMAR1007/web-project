@@ -1,3 +1,4 @@
+// Main navigation bar with responsive mobile menu
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Hexagon, ShoppingCart, Menu, LayoutDashboard } from "lucide-react"
