@@ -42,7 +42,7 @@ export function FeaturedProducts() {
     <section className="w-full px-4 py-12 md:py-16 lg:py-20 bg-muted/30">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Featured Products</h2>
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3 md:mb-4">Top Products</h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
             Check out our hand-picked selection of the best tech gadgets
           </p>
