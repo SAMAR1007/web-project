@@ -23,7 +23,7 @@ export function Hero() {
             </Link>
             <Link href="/dashboard">
               <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
-                Go to Dashboard
+                My Dashboard
               </Button>
             </Link>
             <Link href="/deals">
