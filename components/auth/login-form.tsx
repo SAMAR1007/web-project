@@ -9,13 +9,14 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
+// LoginForm handles user authentication
 export function LoginForm() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle login logic here
+    // TODO: Add form validation before API call
     console.log("Login:", { email, password })
   }
 
@@ -32,7 +33,9 @@ export function LoginForm() {
             <Input
               id="email"
               type="email"
-              placeholder="you@example.com"
+
+              placeholder="Enter your email"
+
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required

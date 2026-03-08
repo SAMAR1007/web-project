@@ -1,3 +1,4 @@
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Hexagon, ShoppingCart, Menu, LayoutDashboard } from "lucide-react"
@@ -7,7 +8,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl">
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl" aria-label="Tech Hive Home">
           <Hexagon className="h-6 w-6" />
           <span>Tech Hive</span>
         </Link>
@@ -24,7 +25,7 @@ export function Navbar() {
             Categories
           </Link>
           <Link href="/deals" className="text-sm font-medium hover:text-primary transition-colors">
-            Deals
+            Hot Deals
           </Link>
           <Link href="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
             Dashboard
@@ -45,7 +46,7 @@ export function Navbar() {
             <Button variant="ghost">Login</Button>
           </Link>
           <Link href="/register" className="hidden md:block">
-            <Button>Get Started</Button>
+            <Button>Sign Up</Button>
           </Link>
 
           {/* Mobile Menu */}
@@ -67,7 +68,7 @@ export function Navbar() {
                   Categories
                 </Link>
                 <Link href="/deals" className="text-sm font-medium">
-                  Deals
+                  Hot Deals
                 </Link>
                 <Link href="/dashboard" className="text-sm font-medium">
                   Dashboard

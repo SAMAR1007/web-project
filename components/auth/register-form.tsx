@@ -31,7 +31,7 @@ export function RegisterForm() {
     <Card className="w-full max-w-md">
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
-        <CardDescription>Enter your information to get started with Tech Hive</CardDescription>
+        <CardDescription>Fill in your details to create your Tech Hive account</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -40,7 +40,7 @@ export function RegisterForm() {
             <Input
               id="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Your full name"
               value={formData.name}
               onChange={handleChange}
               required
@@ -72,7 +72,7 @@ export function RegisterForm() {
             />
           </div>
           <Button type="submit" className="w-full">
-            Create Account
+            Get Started
           </Button>
         </form>
       </CardContent>
