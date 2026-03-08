@@ -28,7 +28,7 @@ export function Hero() {
             </Link>
             <Link href="/deals">
               <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
-                View Deals
+                Browse Deals
               </Button>
             </Link>
           </div>
