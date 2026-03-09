@@ -6,8 +6,13 @@ export function DashboardStats() {
   const stats = [
     {
       title: "Total Revenue",
-      value: "$48,750",
-      change: "+20.1%",
+// <<<<<<< sprint2
+//       value: "$45,231",
+//       change: "+22.5%",
+// =======
+//       value: "$48,750",
+//       change: "+20.1%",
+// >>>>>>> main
       icon: DollarSign,
     },
     {
